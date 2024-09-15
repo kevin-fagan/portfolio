@@ -1,9 +1,9 @@
 .card-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1260px;
 }
 
 .card {
@@ -14,51 +14,51 @@
     height: 380px;
     transition: transform 0.2s, box-shadow 0.2s;
     margin: 20px;
-  }
+}
 
 .card:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
-  
+
 .card-content {
-  display: flex;
-  flex-direction: column; 
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
-  
+
 .card-inner-content {
-  padding: 0px 10px 10px 10px;
-  display: flex;
-  flex-direction: column; 
-  height: 100%;
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .card-title {
-  font-size: 1.5rem;
-  color: #333;
-  margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
 }
-  
+
 .card-description {
-  flex-grow: 1;
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 20px;
-  min-height: 80px;
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    min-height: 80px;
 }
-  
+
 .card-tags {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
-  
+
 .tag {
-  background-color: #33312E;
-  color: white;
-  border-radius: 10px;
-  padding: 5px 10px;
-  margin: 5px;
-  font-size: 0.8rem;
+    background-color: #33312e;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.8rem;
 }

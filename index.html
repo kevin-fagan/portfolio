@@ -1,108 +1,170 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/root.css">
-    <link rel="stylesheet" href="assets/css/card.css">
-    <link rel="stylesheet" href="assets/css/image.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-</head>
-  <body>
-    <div class="root-container">
-        <div>
-            <div style="display: flex; flex-direction: row; margin: 50px; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: center;">
-                <img style="border-radius: 50%; height: 350px; width: 350px;" src="/assets/images/profile.jpeg"/>
-                <div style="width: 400px;">
-                    <div style="display: flex; justify-content: center; flex-direction: column; height: 100%;">
-                        <div>
-                            <h1>Kevin Fagan</h1>
-                            <h3>A Bit About Me</h3>
-                            <p>
-                                As a Lead Software Engineer at Target, I have a passion for building innovative solutions and continuously 
-                                expanding my knowledge. You can explore some of my work showcased below!
-                            </p>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="assets/css/root.css" />
+        <link rel="stylesheet" href="assets/css/card.css" />
+        <link rel="stylesheet" href="assets/css/image.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        />
+    </head>
+    <body>
+        <div class="root-container">
+            <div>
+                <div
+                    style="
+                        display: flex;
+                        flex-direction: row;
+                        margin: 50px;
+                        flex-wrap: wrap;
+                        gap: 40px;
+                        align-items: center;
+                        justify-content: center;
+                    "
+                >
+                    <img
+                        style="border-radius: 50%; height: 350px; width: 350px"
+                        src="/assets/images/profile.jpeg"
+                    />
+                    <div style="width: 400px">
+                        <div
+                            style="
+                                display: flex;
+                                justify-content: center;
+                                flex-direction: column;
+                                height: 100%;
+                            "
+                        >
+                            <div>
+                                <h1>Kevin Fagan</h1>
+                                <h3>A Bit About Me</h3>
+                                <p>
+                                    As a Lead Software Engineer at Target, I
+                                    have a passion for building innovative and
+                                    sometimes pointless, yet fun solutions! I'm
+                                    always eager to expand my knowledge and
+                                    skillset, embracing new opportunities along
+                                    the way.
+                                </p>
+                                <div style="display: flex; gap: 10px">
+                                    <img
+                                        style="height: 30px; width: 30px"
+                                        src="/assets/images/linkedin.png"
+                                    />
+                                    <img
+                                        style="height: 30px; width: 30px"
+                                        src="/assets/images/github.png"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="margin-left: 20px">
+                    <h1>My Projects</h1>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-content">
+                            <img
+                                class="image-style"
+                                src="/assets/images/steam.jpg"
+                                alt="Steam Logo"
+                            />
+                            <div class="card-inner-content">
+                                <h2 class="card-title">Steam Hub</h2>
+                                <p class="card-description">
+                                    As a Lead Software Engineer at Target, I
+                                    have a passion for building innovative and
+                                    sometimes pointless, yet fun solutions! I'm
+                                    always eager to expand my knowledge and
+                                    skillset, embracing new opportunities along
+                                    the way.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">Golang</span>
+                                    <span class="tag">Mongo DB</span>
+                                    <span class="tag">Digital Ocean</span>
+                                    <span class="tag">Discord</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <img
+                                class="image-style"
+                                src="/assets/images/memories.jpg"
+                                alt="Steam Logo"
+                            />
+                            <div class="card-inner-content">
+                                <h2 class="card-title">Discord Memories</h2>
+                                <p class="card-description">
+                                    Discord Memories is a Discord bot that
+                                    allows users to save and recall memories.
+                                    It's similar to Snapchat memories, but for
+                                    Discord!
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">Golang</span>
+                                    <span class="tag">S3</span>
+                                    <span class="tag">Digital Ocean</span>
+                                    <span class="tag">Discord</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <img
+                                class="image-style"
+                                src="/assets/images/portfolio.jpg"
+                                alt="Steam Logo"
+                            />
+                            <div class="card-inner-content">
+                                <h2 class="card-title">Portfolio</h2>
+                                <p class="card-description">
+                                    My porfolio website. It's the one you are
+                                    viewing right now!
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">Jekyll</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-left: 20px">
+                    <h1>Open Source Projects</h1>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-content">
+                            <img
+                                class="image-style"
+                                src="/assets/images/sherlock.jpg"
+                                alt="Steam Logo"
+                            />
+                            <div class="card-inner-content">
+                                <h2 class="card-title">Sherlock</h2>
+                                <p class="card-description">
+                                    Used to hunt down social media accounts by
+                                    username across social networks
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag">Python</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div>
-        <div style="margin-left: 20px;">
-            <h1>My Projects</h1>
-        </div style="width: 50%;">
-        <div class="card-container">
-            <div class="card">
-                <div class="card-content">
-                    <img class="image-style" src="/assets/images/steam.jpg" alt="Steam Logo">
-                    <div class="card-inner-content">
-                        <h2 class="card-title">Steam Hub</h2>
-                        <p class="card-description">
-                            As a Lead Software Engineer at Target, I have a passion for building innovative and sometimes pointless, yet fun solutions! 
-                            I'm always eager to expand my knowledge and skillset, embracing new opportunities along the way.
-                        </p>
-                        <div class="card-tags">
-                            <span class="tag">Golang</span>
-                            <span class="tag">Mongo DB</span>
-                            <span class="tag">Digital Ocean</span>
-                            <span class="tag">Discord</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <img class="image-style" src="/assets/images/memories.jpg" alt="Steam Logo">
-                    <div class="card-inner-content">
-                        <h2 class="card-title">Discord Memories</h2>
-                        <p class="card-description">
-                            Discord Memories is a Discord bot that allows users to save and recall memories. It's similar to Snapchat memories, but for Discord!
-                        </p>
-                        <div class="card-tags">
-                            <span class="tag">Golang</span>
-                            <span class="tag">S3</span>
-                            <span class="tag">Digital Ocean</span>
-                            <span class="tag">Discord</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <img class="image-style" src="/assets/images/portfolio.jpg" alt="Steam Logo">
-                    <div class="card-inner-content">
-                        <h2 class="card-title">Portfolio</h2>
-                        <p class="card-description">
-                            My porfolio website. It's the one you are viewing right now!
-                        </p>
-                        <div class="card-tags">
-                            <span class="tag">CSS</span>
-                            <span class="tag">HTML</span>
-                            <span class="tag">Jekyll</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="margin-left: 20px;">
-            <h1>Open Source Projects</h1>
-        </div>
-        <div class="card-container">
-            <div class="card">
-                <div class="card-content">
-                    <img class="image-style" src="/assets/images/sherlock.jpg" alt="Steam Logo">
-                    <div class="card-inner-content">
-                        <h2 class="card-title">Sherlock</h2>
-                        <p class="card-description">
-                            Used to hunt down social media accounts by username across social networks 
-                        </p>
-                        <div class="card-tags">
-                            <span class="tag">Python</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-  </body>
+    </body>
 </html>
