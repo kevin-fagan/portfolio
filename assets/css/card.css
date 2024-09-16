@@ -6,6 +6,11 @@
     max-width: 1260px;
 }
 
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .card {
     background-color: white;
     border-radius: 10px;
@@ -61,4 +66,10 @@
     padding: 5px 10px;
     margin: 5px;
     font-size: 0.8rem;
+}
+
+.card-image {
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    overflow: hidden;
 }

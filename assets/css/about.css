@@ -1,0 +1,33 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-icon-container {
+    display: flex;
+    gap: 10px;
+}
+
+.about-content {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.about-image {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+}
+
+.about-icon {
+    height: 30px;
+    width: 30px;
+}
