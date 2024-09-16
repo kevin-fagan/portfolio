@@ -14,7 +14,7 @@
         <div class="root-container">
             <div>
                 <div class="about-container">
-                    <img class="about-image" src="/assets/images/profile.jpeg" />
+                    <img class="about-image" src="{{ .site.baseurl }}/assets/images/profile.jpeg" />
                     <div class="about-content">
                         <div>
                             <h1>Kevin Fagan</h1>
@@ -27,10 +27,16 @@
                             </p>
                             <div class="about-icon-container">
                                 <a href="https://www.linkedin.com/in/kevin-fagan/">
-                                    <img class="about-icon" src="/assets/images/linkedin.png" />
+                                    <img
+                                        class="about-icon"
+                                        src="{{ .site.baseurl }}/assets/images/linkedin.png"
+                                    />
                                 </a>
                                 <a href="https://github.com/kevin-fagan">
-                                    <img class="about-icon" src="/assets/images/github.png" />
+                                    <img
+                                        class="about-icon"
+                                        src="{{ .site.baseurl }}/assets/images/github.png"
+                                    />
                                 </a>
                             </div>
                         </div>
@@ -47,7 +53,7 @@
                             <div class="card-content">
                                 <img
                                     class="card-image"
-                                    src="/assets/images/steam.jpg"
+                                    src="{{ .site.baseurl }}/assets/images/steam.jpg"
                                     alt="Steam Logo"
                                 />
                                 <div class="card-inner-content">
@@ -72,7 +78,7 @@
                             <div class="card-content">
                                 <img
                                     class="card-image"
-                                    src="/assets/images/memories.jpg"
+                                    src="{{ .site.baseurl }}/assets/images/memories.jpg"
                                     alt="Discord Memories Logo"
                                 />
                                 <div class="card-inner-content">
@@ -97,7 +103,7 @@
                             <div class="card-content">
                                 <img
                                     class="card-image"
-                                    src="/assets/images/portfolio.jpg"
+                                    src="{{ .site.baseurl }}/assets/images/portfolio.jpg"
                                     alt="Portfolio Logo"
                                 />
                                 <div class="card-inner-content">
@@ -124,7 +130,7 @@
                             <div class="card-content">
                                 <img
                                     class="card-image"
-                                    src="/assets/images/sherlock.jpg"
+                                    src="{{ .site.baseurl }}/assets/images/sherlock.jpg"
                                     alt="Sherlock Logo"
                                 />
                                 <div class="card-inner-content">
